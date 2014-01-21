@@ -1,8 +1,35 @@
 <html>
 	<head>
 		<title>Angucomplete</title>
-	</head>
-	<body>
-		<h1>Angucomplete</h1>
-		<h2>Awesome Autocompleteness for AngularJS</h2>
+        <link rel="stylesheet" href="css/structure.css"/>
+        <link rel="stylesheet" href="css/angucomplete.css"/>
+        <link rel="stylesheet" href="fonts/bariol/bariol.css"/>
+    </head>
+	<body ng-app="app">
+		<div ng-controller="MainController">
+            <h1>Angucomplete</h1>
+            <h2>Awesome Autocompleteness for AngularJS</h2>
+            <p>
+                A minimal looking, easy to implement directive for AngularJS that lets you quickly add autocomplete boxes to your pages with no dependency on other libraries.
+            </p>
+
+
+
+            <div class="large-padded-row">
+                <h3>Example 1 - Local Data</h3>
+                <div class="large-padded-row">
+                    <angucomplete id="ex1" placeholder="Search" pause="100" selectedobject="myModelObject" localdata="example1Data" searchfields="title" titlefield="title" minlength="1" inputclass="form-control form-control-small"/>
+                </div>
+
+
+            </div>
+
+
+            <script src="js/angular.min.js"></script>
+            <script src="js/angular-touch.min.js"></script>
+            <script src="js/app/app.js"></script>
+            <script src="js/app/controllers/main-controller.js"></script>
+            <script src="js/app/directives/angucomplete.js"></script>
+        </div>
 	</body>
+</html>
