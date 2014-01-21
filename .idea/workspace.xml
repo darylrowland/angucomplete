@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2adb7015-066e-4ea8-812f-80e0f9e76c66" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/angucomplete.css" afterPath="$PROJECT_DIR$/css/angucomplete.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/directives/angucomplete.js" afterPath="$PROJECT_DIR$/js/app/directives/angucomplete.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/controllers/main-controller.js" afterPath="$PROJECT_DIR$/js/app/controllers/main-controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/structure.css" afterPath="$PROJECT_DIR$/css/structure.css" />
     </list>
     <ignored path="angucomplete.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,16 +32,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="75" selection-start="120" selection-end="120" vertical-scroll-proportion="0.06923077" vertical-offset="0" max-vertical-offset="660">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main-controller.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/app/controllers/main-controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="253" column="10" selection-start="11715" selection-end="11715" vertical-scroll-proportion="0.0" vertical-offset="3243" max-vertical-offset="3930">
+            <state line="45" column="108" selection-start="2436" selection-end="2436" vertical-scroll-proportion="0.37692308" vertical-offset="430" max-vertical-offset="1080">
               <folding />
             </state>
           </provider>
@@ -46,7 +41,16 @@
       <file leaf-file-name="structure.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/structure.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15015">
+            <state line="328" column="17" selection-start="5006" selection-end="5006" vertical-scroll-proportion="0.0" vertical-offset="4603" max-vertical-offset="15195">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main-controller.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/app/controllers/main-controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="44" selection-start="980" selection-end="980" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3930">
               <folding />
             </state>
           </provider>
@@ -64,7 +68,7 @@
       <file leaf-file-name="angucomplete.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/angucomplete.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
+            <state line="17" column="15" selection-start="309" selection-end="309" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="1155">
               <folding />
             </state>
           </provider>
@@ -73,7 +77,7 @@
       <file leaf-file-name="angucomplete.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app/directives/angucomplete.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="192" column="45" selection-start="7951" selection-end="7951" vertical-scroll-proportion="-22.153847" vertical-offset="2304" max-vertical-offset="3420">
+            <state line="72" column="64" selection-start="3546" selection-end="3554" vertical-scroll-proportion="-8.307693" vertical-offset="864" max-vertical-offset="3420">
               <folding />
             </state>
           </provider>
@@ -102,16 +106,17 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/js/app/app.js" />
-        <option value="$PROJECT_DIR$/css/structure.css" />
-        <option value="$PROJECT_DIR$/js/app/controllers/main-controller.js" />
         <option value="$PROJECT_DIR$/js/app/directives/angucomplete.js" />
+        <option value="$PROJECT_DIR$/css/angucomplete.css" />
+        <option value="$PROJECT_DIR$/js/app/controllers/main-controller.js" />
+        <option value="$PROJECT_DIR$/css/structure.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="53" />
-    <option name="y" value="121" />
+    <option name="x" value="-202" />
+    <option name="y" value="107" />
     <option name="width" value="1347" />
     <option name="height" value="807" />
   </component>
@@ -245,6 +250,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angucomplete" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angucomplete" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="fonts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -278,6 +297,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistory" value="struc" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -337,7 +357,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="121" width="1347" height="807" extended-state="0" />
+    <frame x="-202" y="107" width="1347" height="807" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -390,37 +410,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/structure.css">
+    <entry file="file://$PROJECT_DIR$/js/app/directives/angucomplete.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15015">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/controllers/main-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="253" column="10" selection-start="11715" selection-end="11715" vertical-scroll-proportion="0.0" vertical-offset="3243" max-vertical-offset="3930">
+        <state line="72" column="64" selection-start="3546" selection-end="3554" vertical-scroll-proportion="-8.307693" vertical-offset="864" max-vertical-offset="3420">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/angucomplete.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
+        <state line="17" column="15" selection-start="309" selection-end="309" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="1155">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/directives/angucomplete.js">
+    <entry file="file://$PROJECT_DIR$/js/app/controllers/main-controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="192" column="45" selection-start="7951" selection-end="7951" vertical-scroll-proportion="-22.153847" vertical-offset="2304" max-vertical-offset="3420">
+        <state line="20" column="44" selection-start="980" selection-end="980" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/structure.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="328" column="17" selection-start="5006" selection-end="5006" vertical-scroll-proportion="0.0" vertical-offset="4603" max-vertical-offset="15195">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="75" selection-start="120" selection-end="120" vertical-scroll-proportion="0.06923077" vertical-offset="0" max-vertical-offset="675">
+        <state line="45" column="108" selection-start="2436" selection-end="2436" vertical-scroll-proportion="0.37692308" vertical-offset="430" max-vertical-offset="1080">
           <folding />
         </state>
       </provider>

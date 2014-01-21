@@ -105,7 +105,15 @@ p {
 
 }
 
+h1 {
+    font-size: 36px;
+}
+
 @media screen and (min-width: 500px) {
+    h1 {
+        font-size: 50px;
+    }
+
     .top-bar-mobile-link-menu {
         display: none;
     }
@@ -315,6 +323,10 @@ p {
 
 .large-padded-row {
     margin-top: 20px;
+}
+
+.very-large-padded-row {
+    margin-top: 40px;
 }
 
 .full-screen-cancel:hover {
