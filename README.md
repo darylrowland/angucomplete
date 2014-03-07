@@ -66,6 +66,7 @@ var app = angular.module('app', ["angucomplete"]);
 
 ### License
 The angucomplete project is covered by the [MIT License](http://opensource.org/licenses/MIT "MIT License").
+
 The MIT License (MIT)
 
 Copyright (c) 2014 Daryl Rowland, and contributors to the angucomplete project.
