@@ -31,6 +31,7 @@ angular.module('angucomplete', [] )
             $scope.currentIndex = null;
             $scope.justChanged = false;
             $scope.searchTimer = null;
+            $scope.hideTimer = null;
             $scope.searching = false;
             $scope.pause = 500;
             $scope.minLength = 3;
