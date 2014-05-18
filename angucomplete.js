@@ -111,7 +111,7 @@ angular.module('angucomplete', [] )
                             var match = false;
 
                             for (var s = 0; s < searchFields.length; s++) {
-                                match = match || ($scope.localData[i][searchFields[s]].toLowerCase().indexOf(str.toLowerCase()) >= 0);
+                                match = match || (typeof $scope.localData[i][searchFields[s]] === 'string' && typeof str === 'string' && $scope.localData[i][searchFields[s]].toLowerCase().indexOf(str.toLowerCase()) >= 0);
                             }
 
                             if (match) {
