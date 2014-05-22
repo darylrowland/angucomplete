@@ -195,7 +195,7 @@ angular.module('angucomplete', [] )
 
             elem.on("keyup", function (event) {
                 if(event.which === 40) {
-                    if (($scope.currentIndex + 1) < $scope.results.length) {
+                    if ($scope.results && ($scope.currentIndex + 1) < $scope.results.length) {
                         $scope.currentIndex ++;
                         $scope.$apply();
                         event.preventDefault;
@@ -212,7 +212,7 @@ angular.module('angucomplete', [] )
                     }
 
                 } else if (event.which == 13) {
-                    if ($scope.currentIndex >= 0 && $scope.currentIndex < $scope.results.length) {
+                    if ($scope.results && $scope.currentIndex >= 0 && $scope.currentIndex < $scope.results.length) {
                         $scope.selectResult($scope.results[$scope.currentIndex]);
                         $scope.$apply();
                         event.preventDefault;
