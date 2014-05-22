@@ -64,6 +64,16 @@ var app = angular.module('app', ["angucomplete"]);
 | localdata | The local data variable to use from your controller. Should be an array of objects | No | countriesList |
 | searchfields | The fields from your local data to search on (comma separate them) | No | title,description |
 
+### Running test suite
+
+In order to run tests clone repository and run following commands within
+repo's directory:
+
+```shell
+bower install
+grunt
+```
+
 ### License
 The angucomplete project is covered by the [MIT License](http://opensource.org/licenses/MIT "MIT License").
 
