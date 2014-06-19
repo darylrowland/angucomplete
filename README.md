@@ -58,6 +58,7 @@ var app = angular.module('app', ["angucomplete"]);
 | datafield | The name of the field in the JSON object returned back that holds the Array of objects to be used for the autocomplete list. | No | results |
 | titlefield | The name of the field in the JSON objects returned back that should be used for displaying the title in the autocomplete list. Note, if you want to combine fields together, you can comma separate them here (e.g. for a first and last name combined) | Yes | firstName,lastName |
 | descriptionfield | The name of the field in the JSON objects returned back that should be used for displaying the description in the autocomplete list | No | twitterUsername |
+| imageuri | A http location or directory where images reside | No | http://localhost/images/ |
 | imagefield | The name of the field in the JSON objects returned back that should be used for displaying an image in the autocomplete list | No | pic |
 | minlength | The minimum length of string required before searching | No | 3 |
 | inputclass | The classes to use for styling the input box | No | form-control |
