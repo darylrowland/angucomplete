@@ -17,6 +17,7 @@ angular.module('angucomplete', [] )
             "titleField": "@titlefield",
             "descriptionField": "@descriptionfield",
             "imageField": "@imagefield",
+            "imageUri": "@imageuri",
             "inputClass": "@inputclass",
             "userPause": "@pause",
             "localData": "=localdata",
@@ -71,9 +72,14 @@ angular.module('angucomplete', [] )
                             description = responseData[i][$scope.descriptionField];
                         }
 
+                        var imageUri = "";
+                        if ($scope.imageUri) {
+                            imageUri = $scope.imageUri;
+                        }
+
                         var image = "";
                         if ($scope.imageField) {
-                            image = responseData[i][$scope.imageField];
+                            image = imageUri + responseData[i][$scope.imageField];
                         }
 
                         var text = titleCode.join(' ');
