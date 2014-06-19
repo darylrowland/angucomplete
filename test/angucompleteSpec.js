@@ -130,6 +130,17 @@ describe('angucomplete', function() {
       element.isolateScope().processResults(responseData);
       expect(element.isolateScope().results[0].image).toBe(image);
     });
+
+    it('should set $scope.results[0].image with uri', function() {
+      var element = angular.element('<div angucomplete id="ex1" placeholder="Search names" selectedobject="selected" localdata="names" searchfields="name" titlefield="name" imageuri="http:localhost/images/" imagefield="pic" minlength="1"/>');
+      $compile(element)($scope);
+      $scope.$digest();
+
+      var image = 'some pic';
+      var responseData = [ {name: 'John', pic: image} ];
+      element.isolateScope().processResults(responseData);
+      expect(element.isolateScope().results[0].image).toBe('http:localhost/images/' + image);
+    });
   });
 
   describe('searchTimerComplete', function() {
