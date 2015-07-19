@@ -5,6 +5,8 @@ A simple but powerful AngularJS directive that allows you to quickly create auto
 
 To see a demo go here: http://darylrowland.github.io/angucomplete
 
+NOTE: I no longer actively mantain this repository. I've started using ReactJS now and its a breath of fresh air compared to AngularJS. If you're still using Angular and need a autocomplete component I'd encourage you to look at this fork of my original Angucomplete: https://github.com/ghiden/angucomplete-alt
+
 ###Key Features
 * Show just a title, a title and a description or a title, description and image in your autocomplete list
 * Deliberately minimally styled so you can customise it to your heart's content!
